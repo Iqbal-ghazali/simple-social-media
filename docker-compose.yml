@@ -1,5 +1,5 @@
 services:
   web:
-    image: iqbal508/iqbal-simple-social-media
+    image: ${DOCKER_USER}/iqbal-simple-social-media
     ports:
       - "8000:8000"
